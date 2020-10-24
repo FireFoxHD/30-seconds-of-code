@@ -1,6 +1,6 @@
 ---
 title: ArrayElementClicked
-tags: Array, Intermediate, DOM
+tags: Array, DOM, Intermediate
 ---
 
 Logs an element inside an array that was clicked. Only works as a result of user 
@@ -22,3 +22,4 @@ function ArrayElementClicked(arr){
 const items = document.querySelectorAll("li");
 ArrayElementClicked(items); // '<li>Second Item</li>'
 ```
+
